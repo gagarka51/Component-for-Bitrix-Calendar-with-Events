@@ -1,0 +1,3 @@
+<?php
+
+$MESS['VED_EVENTS_HL_BLOCK_NAME'] = 'Выберите highload-блок';
