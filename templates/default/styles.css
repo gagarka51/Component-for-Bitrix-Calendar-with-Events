@@ -1,0 +1,53 @@
+.calendar__header {
+	display: flex;
+	font-size: 25px;
+}
+.calendar__header .calendar-month {
+	font-size: 35px;
+}
+.cal-days-names td {
+	text-align: center;
+}
+.calendar__body {
+	margin-top: 10px;
+	cursor: pointer;
+}
+.calendar__body .cal-days-names {
+	color: #287ec1;
+	font-weight: bold;
+}
+.calendar__body td {
+	padding: 12px;
+}
+.calendar__body .today {
+	font-weight: bold;
+}
+.calendar__body .event {
+	background: repeating-linear-gradient(
+  		45deg,
+  		#ffffff,
+  		#d0ffff 20px,
+  		#ffffff 20px
+  	);
+}
+.calendar__body td {
+	text-align: center;
+}
+.calendar__body .cal-event-day {
+	color: #38659f;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.calendar__body .cal-event {
+	font-size: 15px;
+	text-align: left;
+}
+.calendar__body .cal-event-name {
+	margin-bottom: 5px;
+}
+.calendar__body .cal-event-desc {
+	color: grey;
+}
+.calendar__body tr, .calendar__body td {
+	border: 1px dotted #0095b6;
+}
